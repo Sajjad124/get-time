@@ -8,8 +8,8 @@ const App = () => {
   const [ctime, setTime] = useState(time);
   
   const updateTime = () => {
-    let ctime = new Date().toLocaleTimeString();
-    setTime(ctime);
+    let time = new Date().toLocaleTimeString();
+    setTime(time);
   }
 
   return (
